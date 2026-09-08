@@ -1,6 +1,6 @@
 # Manurag Khullar — academic website
 
-A small, accessible academic website made with HTML and CSS. No build tools, dependencies, analytics, or JavaScript are needed.
+A small, accessible academic website made with HTML and CSS. No build tools, analytics, or JavaScript are needed. Source Sans 3 loads from Google Fonts, with system-font fallbacks.
 
 ## Edit the site
 
@@ -9,7 +9,7 @@ A small, accessible academic website made with HTML and CSS. No build tools, dep
 - `favicon.svg` is the browser tab icon.
 - `.nojekyll` tells GitHub Pages to serve these files directly.
 
-The white, responsive layout places the portrait beside the introduction on desktop and above it on mobile. Its structure draws on https://janetlauyeung.github.io/, with earlier references https://andaqu.github.io/ and https://shami09.github.io/; the text and teal accents are specific to Manurag. The portrait loads from Manurag's public GitHub avatar at his request; update the image URL in `index.html` to change it. Displaying the photo requires an internet connection.
+The white, responsive layout places the portrait beside the introduction on desktop and above it on mobile, with profile details and accessible social icons below the photo. Top navigation links jump to each section. Its structure draws on https://janetlauyeung.github.io/, with earlier references https://andaqu.github.io/ and https://shami09.github.io/; the text and teal accents are specific to Manurag. The portrait loads from Manurag's public GitHub avatar, and university marks load through Google's favicon service. These images require an internet connection. Update the image and profile URLs in `index.html` to change them.
 
 Update publication statuses and reviewer service as they change. The content was based on the live Overleaf CV on September 8, 2026, and condensed for the homepage. Phone numbers and the private Overleaf editor link are not published.
 
