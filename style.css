@@ -1,5 +1,5 @@
 /* White academic page with section navigation and details beneath the portrait. */
-:root { --accent: #23665f; --accent-soft: #a6c7c0; --warm: #91613d; }
+:root { --accent: #2457a6; --accent-soft: #b7cbed; --warm: #91613d; }
 * { box-sizing: border-box; }
 html { background: #fff; color-scheme: light; scroll-behavior: smooth; scroll-padding-top: 90px; }
 body { margin: 0; background: #fff; color: #292929; font: 18px/1.65 "Source Sans 3", "Segoe UI", Arial, sans-serif; }
@@ -22,7 +22,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .profile-email { margin-bottom: 8px; font-size: 14px; color: #555; }
 .profile-links { display: flex; justify-content: center; gap: 10px; }
 .profile-links a { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; color: var(--accent); border-radius: 5px; }
-.profile-links a:hover { background: #eff6f3; }
+.profile-links a:hover { background: #eef3fb; }
 .profile-links svg { width: 23px; height: 23px; }
 section { margin-top: 42px; padding-top: 30px; border-top: 1px solid #e4eae7; }
 section:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
