@@ -29,13 +29,13 @@ section:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .paper { margin-bottom: 27px; }
 .paper:last-child { margin-bottom: 0; }
 .paper p { margin-bottom: 8px; }
-.note { color: #555; font-size: 16px; }
+.note { color: #555; font-size: inherit; }
 .education-entry { display: grid; grid-template-columns: 44px minmax(0,1fr); align-items: center; gap: 18px; margin-bottom: 23px; }
 .university-logo { display: block; width: 40px; height: 40px; object-fit: contain; }
 .education-entry p { margin-bottom: 2px; }
 .education-entry p:first-child { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
-.date { color: var(--warm); font-size: 15px; white-space: nowrap; }
-.plain-list { list-style: none; margin: 0; padding: 0; font-size: 17px; }
+.date { color: var(--warm); font-size: inherit; white-space: nowrap; }
+.plain-list { list-style: none; margin: 0; padding: 0; font-size: inherit; }
 .plain-list li { margin-bottom: 10px; }
 .skip-link { position: absolute; left: 16px; top: -80px; z-index: 10; background: white; padding: 10px; }
 .skip-link:focus { top: 10px; }
